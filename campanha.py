@@ -77,6 +77,9 @@ class Campanha():
         for i in self._EntidadesCampanha:
             if i == nome:
                 return i
+            
+    def menuCampanha(self):
+        print("Menu campanha não foi feito ainda.")
         
 
     

@@ -77,7 +77,7 @@ class ControlaCombate():
 
     def editaFicha(self, personagem):
 
-        campanha = Campanha()
+        campanha = Campanha() #! isso aqui cria uma campanha nova, vazia
         entidade = campanha.buscaEntidade(personagem)
 
         entidade.editaEntidade()
